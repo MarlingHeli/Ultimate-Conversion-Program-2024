@@ -1,4 +1,5 @@
-Continutation of python basics programming
+Continutation of python basics programming.
+
 Planning and testing here:
 
 Videos here: 
