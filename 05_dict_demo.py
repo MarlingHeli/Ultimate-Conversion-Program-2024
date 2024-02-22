@@ -11,18 +11,9 @@ my_dict = {
 your_num = int(input("Enter a number: "))
 to_do = input("double or half? ").lower()
 
-if to_do == "double":
-    #look up value
-    multiply = my_dict[to_do] #get value based on key
+#look up value
+multiply = my_dict[to_do] #check for double or half
 
-    #calculations
-    answer = your_num * multiply #input x 2
-    print(f"{your_num} * {multiply} = {answer}")
-
-elif to_do == "half":
-    divide = my_dict[to_do]
-    answer = your_num * divide #input x 0.5
-    print(f"{your_num} * {divide} = {answer}")
-
-else:
-    print("Please select double or half.")
+#calculations
+answer = your_num * multiply #input x dictionary value
+print(f"{your_num} * {multiply} = {answer}")
